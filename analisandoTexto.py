@@ -1,0 +1,7 @@
+name = input('Enter your full name: ').strip()
+print('Analisando seu nome...')
+print(f'Seu nome em maiúsculas é: {name.upper()}')
+print(f'Seu nome em minúsculas é: {name.lower()}')
+print(f'Seu nome tem {len(name) - name.count(" ")} letras! ')
+f_name = name.split()
+print(f'Seu primeiro nome é [{f_name[0]}] e tem {len(f_name[0])} letras!')
